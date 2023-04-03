@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import sidebar from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "http://localhost:8080",
@@ -18,43 +18,55 @@ export default hopeTheme({
 
   // docsDir: "demo/theme-docs/src",
 
-  locales: {
-    "/": {
-      // navbar
-      navbar: enNavbar,
+  navbar: enNavbar,
 
-      // sidebar
-      sidebar: enSidebar,
+  // sidebar
+  sidebar: sidebar,
 
-      copyright: false,
-      footer: "Dari ASN untuk Bangsa",
-      displayFooter: true,
+  copyright: false,
+  footer: "Dari ASN untuk Bangsa",
+  displayFooter: true,
 
-      metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
-    },
-
-    /**
-     * Chinese locale config
-     */
-    "/zh/": {
-      // navbar
-      navbar: zhNavbar,
-
-      // sidebar
-      sidebar: zhSidebar,
-
-      footer: "默认页脚",
-
-      displayFooter: true,
-
-      // page meta
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
-    },
+  metaLocales: {
+    editLink: "Edit this page on GitHub",
   },
+  // locales: {
+  // "/": {
+  //   // navbar
+  //   navbar: enNavbar,
+
+  //   // sidebar
+  //   sidebar: enSidebar,
+
+  //   copyright: false,
+  //   footer: "Dari ASN untuk Bangsa",
+  //   displayFooter: true,
+
+  //   metaLocales: {
+  //     editLink: "Edit this page on GitHub",
+  //   },
+  // },
+
+  /**
+   * Chinese locale config
+   */
+  //   "/zh/": {
+  //     // navbar
+  //     navbar: zhNavbar,
+
+  //     // sidebar
+  //     sidebar: zhSidebar,
+
+  //     footer: "默认页脚",
+
+  //     displayFooter: true,
+
+  //     // page meta
+  //     metaLocales: {
+  //       editLink: "在 GitHub 上编辑此页",
+  //     },
+  //   },
+  // },
 
   encrypt: {
     config: {

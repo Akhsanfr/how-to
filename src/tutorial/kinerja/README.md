@@ -32,4 +32,4 @@ Tahapan pengisian E Kinerja
 2. [Persetujuan RHK](./2-persetujuan-rhk.md)
 3. [Pengisian Rencana Aksi dan Bukti Dukung](./3-renaksi-dan-bukti.md)
 4. [Penilaian Atasan](./4-penilaian.md)
-5. [Pencetakan SKP](./4-cetak.md)
+5. [Pencetakan SKP](./5-cetak.md)
