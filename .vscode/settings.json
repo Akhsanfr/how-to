@@ -1,0 +1,4 @@
+{
+  "pasteImage.path": "${projectRoot}/src/.vuepress/public/img/",
+  "pasteImage.basePath": "${projectRoot}/src/.vuepress/public/img/"
+}
